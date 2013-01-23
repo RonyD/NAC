@@ -1,0 +1,15 @@
+c:\users\dennison\documents\visual studio 2010\Projects\CommandCentre\CommandCentre\bin\CommandCentre.dll
+c:\users\dennison\documents\visual studio 2010\Projects\CommandCentre\CommandCentre\bin\CommandCentre.pdb
+c:\users\dennison\documents\visual studio 2010\Projects\CommandCentre\CommandCentre\obj\Debug\ResolveAssemblyReference.cache
+c:\users\dennison\documents\visual studio 2010\Projects\CommandCentre\CommandCentre\obj\Debug\CommandCentre.dll
+c:\users\dennison\documents\visual studio 2010\Projects\CommandCentre\CommandCentre\obj\Debug\CommandCentre.pdb
+I:\Dropbox\biz\CommandCentre\CommandCentre\bin\CommandCentre.dll
+I:\Dropbox\biz\CommandCentre\CommandCentre\bin\CommandCentre.pdb
+I:\Dropbox\biz\CommandCentre\CommandCentre\obj\Debug\ResolveAssemblyReference.cache
+I:\Dropbox\biz\CommandCentre\CommandCentre\obj\Debug\CommandCentre.dll
+I:\Dropbox\biz\CommandCentre\CommandCentre\obj\Debug\CommandCentre.pdb
+C:\Users\Dennison\Dropbox\biz\CommandCentre\CommandCentre\bin\CommandCentre.dll
+C:\Users\Dennison\Dropbox\biz\CommandCentre\CommandCentre\bin\CommandCentre.pdb
+C:\Users\Dennison\Dropbox\biz\CommandCentre\CommandCentre\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dennison\Dropbox\biz\CommandCentre\CommandCentre\obj\Debug\CommandCentre.dll
+C:\Users\Dennison\Dropbox\biz\CommandCentre\CommandCentre\obj\Debug\CommandCentre.pdb

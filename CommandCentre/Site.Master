@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CommandCentre.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/styles/bootstrap.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div class="page-header">  <!-- page-header -->           
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <a class="brand" href="Default.aspx">CCentre</a>
+                    <ul class="nav nav-tabs">                       
+                        <li><a href="About.aspx">About</a></li>
+                        <li></li>
+                        <li class="pull-right">
+                            <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                                <AnonymousTemplate>
+                                    <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                                    <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                        </li>
+                    </ul>
+                </div>
+            </div>        
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+        </div> <!-- page-header end -->
+        <div class="footer">
+        <p>NAC &copy | Systems & Services | 2012 </p>
+        </div>
+    </form>
+</body>
+</html>
